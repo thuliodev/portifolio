@@ -1,0 +1,38 @@
+.home-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 5rem 2rem;
+}
+.home-container .name-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-width: 70%;
+}
+.home-container .name-content {
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.home-container .profession-content {
+  color: #fff;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4rem;
+  flex: 1;
+}
+.home-container .text-apresentation-content {
+  color: #fff;
+  font-weight: 400;
+  width: 50%;
+}
+.home-container .profession-container {
+  display: flex;
+  justify-content: space-between;
+}
+.home-container .personalized-name {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}/*# sourceMappingURL=index.css.map */

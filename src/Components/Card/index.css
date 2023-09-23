@@ -1,0 +1,21 @@
+.cards {
+  width: 200px;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  transition: all 0.3s ease-out;
+}
+.cards .icon {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+}
+.cards .icon svg {
+  fill: #fff;
+}
+.cards span {
+  color: #fff;
+  margin-left: 5px;
+}/*# sourceMappingURL=index.css.map */
