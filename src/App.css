@@ -11992,4 +11992,6 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   background-image: linear-gradient(to bottom, #eac195, #e0a099, #bc8aa1, #887b9e, #536d88);
+  min-width: 100vw;
+  min-height: 100vh;
 }/*# sourceMappingURL=App.css.map */

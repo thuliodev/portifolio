@@ -3,14 +3,28 @@ import NavBar from '../Navbar';
 import About from '../AboutMe';
 import './index.css'
 import Projects from '../Projects';
+import Aside from '../Aside';
+import Footer from '../Footer/Footer';
+import { useEffect, useState } from 'react';
 
 
 function Home() {
-  
+  console.log(window.scrollY);
+  const [scrollY, setScrollY] = useState(window.scrollY);
+  console.log(scrollY);
+  const headerMovement = scrollY > 1;
+
+  useEffect(() => {
+    window.addEventListener('scroll', (event) => {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const e = event as any
+      setScrollY(e.target.defaultView.pageYOffset) 
+    })
+  }, [])
 
   return (
     <>
-      <header className="header-container">
+      <header className={headerMovement? `header-container movement`:`header-container`}>
         <NavBar />
       </header>
 
@@ -25,9 +39,9 @@ function Home() {
             <h2 className='profession-content'>
               I am into <span className="fs-dev"><TypeAnimation
                 sequence={[
-                  "Front-end Developer", 1000,
-                  "Back-end Developer", 1000,
-                  "Full-stack Developer ", 1000
+                  "Front-end Development", 1000,
+                  "Back-end Development", 1000,
+                  "Full-stack Development ", 1000
                 ]}
                 repeat={Infinity}
                 speed={25}
@@ -49,9 +63,13 @@ function Home() {
             <a href="#"><i className="ri-github-line"></i></a>
           </div>
         </footer>
-      </section>
+        
+        <Projects />
 
-      <Projects />
+        <Aside />
+
+        <Footer />
+      </section>
     </>
   )
 }

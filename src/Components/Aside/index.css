@@ -1,0 +1,33 @@
+.socials-container {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 25px;
+}
+.socials-container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  margin: 0;
+}
+.socials-container ul::after {
+  content: "";
+  display: block;
+  height: 100px;
+  width: 1px;
+  background-color: #fff;
+}
+.socials-container svg {
+  stroke: #fff;
+}
+.socials-container .fa {
+  fill: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .socials-container {
+    left: -25px;
+  }
+}/*# sourceMappingURL=index.css.map */
