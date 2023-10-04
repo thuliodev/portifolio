@@ -32,7 +32,7 @@ function About() {
             <span className="me"> me</span>
           </h2>
           <p>
-            Hello, my first encounter with technology happened when I was quite young, through some video games. Later on, curiosity led me to explore how things actually worked, but that would take some time. It wasn't until I turned 31 that I decided to transition into the tech field. My initial background is in business, and my second one is in analysis and system development, with a specialization in full-stack development.<br></br>
+            Hello, my first contact with technology happened when I was quite young, through some video games. Later on, curiosity led me to explore how things actually worked, but that would take some time. It wasn't until I turned 31 that I decided to transition into the tech field. My initial background is in business, and my second one is in analysis and system development, with a specialization in full-stack development.<br></br>
 
             Currently, I am actively seeking opportunities in the tech industry. My tech career is in its early stages, but I'm determined to showcase my talent and skills. I believe that I can compensate for my lack of experience with dedication, hard work, and the soft skills I've acquired over several years of working in the business sector.<br></br>
 
