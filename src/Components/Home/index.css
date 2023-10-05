@@ -35,4 +35,10 @@
 .home-container .personalized-name {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .profession-content {
+    font-size: 2rem !important;
+  }
 }/*# sourceMappingURL=index.css.map */
