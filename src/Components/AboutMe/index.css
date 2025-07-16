@@ -15,6 +15,9 @@
   border-left: 10px solid #536d88;
   border-top: 10px solid #536d88;
 }
+.img-container img {
+  border-radius: 15px;
+}
 .about-me .about {
   color: #fff;
 }
@@ -57,6 +60,7 @@
     width: 320px;
     margin-top: 50px;
   }
+
   .about-me .img-container::before {
     top: 15px;
     width: 70%;

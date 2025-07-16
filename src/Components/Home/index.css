@@ -39,6 +39,10 @@
 
 @media screen and (max-width: 768px) {
   .profession-content {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
+  }
+
+  .home-container .text-apresentation-content {
+    width: 100%;
   }
 }/*# sourceMappingURL=index.css.map */

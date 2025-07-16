@@ -32,16 +32,16 @@ function Home() {
         <div className="profession-container">
           <div className="name-container">
             <h1 className="name-content">
-              <span>Hi There, I&apos;m  </span>
+              <span>Olá, eu sou  </span>
               <span className='personalized-name'>Thúlio Borba</span>
             </h1>
 
             <h2 className='profession-content'>
-              I am into <span className="fs-dev"><TypeAnimation
+              <span className="fs-dev"><TypeAnimation
                 sequence={[
-                  "Front-end Development", 1000,
-                  "Back-end Development", 1000,
-                  "Full-stack Development ", 1000
+                  "Desenvolvedor Front-end", 1000,
+                  "Desenvolvedor Back-end", 1000,
+                  "Desenvolvedor Full-stack ", 1000
                 ]}
                 repeat={Infinity}
                 speed={25}
@@ -49,7 +49,7 @@ function Home() {
               /></span>
             </h2>
             <h4 className='text-apresentation-content'>
-              Looking for an opportunity in the Web Development area, focused, with excellent communication skills who loves to work in a team.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, sunt dignissimos atque veritatis tempora blanditiis iure aperiam perferendis voluptas consectetur sequi facilis sint quaerat. Tempora est aperiam dignissimos blanditiis vel!
             </h4>
           </div>
         </div>

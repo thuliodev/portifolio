@@ -54,8 +54,18 @@
   width: 70%;
 }
 
+.language {
+  ul {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    
+  }
+}
+
 @media screen and (min-width: 768px) {
-  .burger-menu span, .burger-menu input {
+  .burger-menu span,
+  .burger-menu input {
     display: none;
   }
 }
@@ -86,7 +96,7 @@
   .nav-bar .burger-menu span:nth-of-type(2) {
     transform-origin: 0% 100%;
   }
-  .nav-bar .burger-menu input[type=checkbox] {
+  .nav-bar .burger-menu input[type="checkbox"] {
     display: block;
     position: absolute;
     cursor: pointer;
@@ -95,40 +105,38 @@
     height: 32px;
     z-index: 2;
   }
-  .nav-bar .burger-menu input[type=checkbox]:checked ~ span:nth-of-type(1) {
+  .nav-bar .burger-menu input[type="checkbox"]:checked ~ span:nth-of-type(1) {
     transform-origin: bottom;
     transform: rotateZ(45deg) translate(15px, 12px);
   }
-  .nav-bar .burger-menu input[type=checkbox]:checked ~ span:nth-of-type(2) {
+  .nav-bar .burger-menu input[type="checkbox"]:checked ~ span:nth-of-type(2) {
     transform-origin: top;
     transform: rotateZ(-45deg);
   }
-  .nav-bar .burger-menu input[type=checkbox]:checked ~ span:nth-of-type(3) {
+  .nav-bar .burger-menu input[type="checkbox"]:checked ~ span:nth-of-type(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
-  .nav-bar .burger-menu input[type=checkbox]:checked ~ ul {
-    transform: translate(-68%, 0px);
+  .nav-bar .burger-menu input[type="checkbox"]:checked ~ ul {
+    transform: translate(-50%, 0px);
     background-color: #eac195;
     width: 100%;
-    animation: cascade 1s;
   }
   .nav-bar .nav-links {
     display: flex;
     flex-direction: column;
     position: absolute;
-    margin: -100px 0px 0px -50px;
+    margin: -100px 0px 0px 0px;
     padding-top: 225px;
-    transform: translate(0%, -500px);
+    padding-bottom: 30px;
+    transform: translate(-50%, -500px);
     transform-origin: 0% 0%;
-    transition: transform 0.5 cubic-bezier(0.77, 0.2, 0.05, 1);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    left: 50%;
+    align-items: center;
   }
-  @keyframes cascade {
-    0% {
-      transform: translate(-68%, -300px);
-    }
-    100% {
-      transform: translate(-68%, 0px);
-    }
+
+  .language {
+    display: none;
   }
-}/*# sourceMappingURL=index.css.map */
+}
